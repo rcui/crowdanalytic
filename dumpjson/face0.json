@@ -1,0 +1,86 @@
+{
+    "status": {
+        "code": 10000, 
+        "description": "Ok"
+    }, 
+    "outputs": [
+        {
+            "status": {
+                "code": 10000, 
+                "description": "Ok"
+            }, 
+            "created_at": "2016-10-09T02:28:40Z", 
+            "input": {
+                "data": {
+                    "image": {
+                        "url": "https://s3.amazonaws.com/clarifai-api/img/prod/d9953a5605a3430792a8e4bc94a22cfc/d13ad0caa0db4f3a9a1d6d55c5ef12ef.png"
+                    }
+                }, 
+                "id": "cbfc147e0d3f434298c4bf99f565f6b6"
+            }, 
+            "model": {
+                "name": "expressions", 
+                "output_info": {
+                    "message": "Show output_info with: GET /models/{model_id}/output_info", 
+                    "type": "concept", 
+                    "output_config": {
+                        "closed_environment": false, 
+                        "concepts_mutually_exclusive": false
+                    }
+                }, 
+                "created_at": "2016-10-08T20:32:00Z", 
+                "app_id": "d9953a5605a3430792a8e4bc94a22cfc", 
+                "model_version": {
+                    "status": {
+                        "code": 21100, 
+                        "description": "Model trained successfully"
+                    }, 
+                    "created_at": "2016-10-08T20:36:14Z", 
+                    "id": "fba864ef84004bf49ff0933d0978bace"
+                }, 
+                "id": "expressions"
+            }, 
+            "data": {
+                "concepts": [
+                    {
+                        "app_id": "d9953a5605a3430792a8e4bc94a22cfc", 
+                        "id": "happy", 
+                        "value": 0.34311906, 
+                        "name": "happy"
+                    }, 
+                    {
+                        "app_id": "d9953a5605a3430792a8e4bc94a22cfc", 
+                        "id": "angry", 
+                        "value": 0.064061984, 
+                        "name": "angry"
+                    }, 
+                    {
+                        "app_id": "d9953a5605a3430792a8e4bc94a22cfc", 
+                        "id": "surprised", 
+                        "value": 0.05771609, 
+                        "name": "surprised"
+                    }, 
+                    {
+                        "app_id": "d9953a5605a3430792a8e4bc94a22cfc", 
+                        "id": "neutral", 
+                        "value": 0.052846473, 
+                        "name": "neutral"
+                    }, 
+                    {
+                        "app_id": "d9953a5605a3430792a8e4bc94a22cfc", 
+                        "id": "smug", 
+                        "value": 0.05067907, 
+                        "name": "smug"
+                    }, 
+                    {
+                        "app_id": "d9953a5605a3430792a8e4bc94a22cfc", 
+                        "id": "sleepy", 
+                        "value": 0.043884393, 
+                        "name": "sleepy"
+                    }
+                ]
+            }, 
+            "id": "e8dd522cf65b48e6973bd9ebbe1c89e1"
+        }
+    ]
+}
